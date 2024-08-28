@@ -31,7 +31,7 @@ public class PlayerControllerX : MonoBehaviour
 
         // tilt the plane up/down based on up/down arrow keys
         transform.Rotate(Vector3.right * rotationSpeed * Time.deltaTime * verticalInput);
-        transform.Rotate(Vector3.back * rotationSpeed * Time.deltaTime * horizontalInput);
+        //transform.Rotate(Vector3.back * rotationSpeed * Time.deltaTime * horizontalInput);
 
         //rotate the propeller
         propeller.Rotate(Vector3.forward * propSpeed * Time.deltaTime);
